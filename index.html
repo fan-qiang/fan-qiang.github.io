@@ -309,6 +309,219 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://fan-qiang.github.io/2018/07/24/linux基本命令/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fan Qiang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一个博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/24/linux基本命令/" itemprop="url">
+                  linux基本命令
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-24 20:24:25 / Modified: 22:10:04" itemprop="dateCreated datePublished" datetime="2018-07-24T20:24:25+08:00">2018-07-24</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/操作系统/" itemprop="url" rel="index"><span itemprop="name">操作系统</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>linux中一些基本的命令介绍：</p>
+<h2 id="ls"><a href="#ls" class="headerlink" title="ls"></a>ls</h2><p>ls命令主要用于显示目录下的内容</p>
+<p>语法：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls [-alrtAFR] [name...]</span><br></pre></td></tr></table></figure>
+<p>主要参数:</p>
+<ul>
+<li>-a 显示所有文件及目录,包括.开头的文件或者目录</li>
+<li>-l 列出详细信息</li>
+<li>-r 文件相反的顺序显示</li>
+<li>-t 按照文件建立时间先后顺序列出</li>
+<li>-A 与-a 相同但是不列出”.”以及”..”</li>
+</ul>
+<p>示例:</p>
+<p>列出根目录的文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ls /</span></span><br></pre></td></tr></table></figure>
+<p>列出当前目录的所有文件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ls -al</span></span><br></pre></td></tr></table></figure>
+<h1 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h1><p>cat 命令用于将文件打印到输出设备上</p>
+<p>语法：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat [-benstuv] [file ...]</span><br></pre></td></tr></table></figure>
+<p>主要参数:</p>
+<ul>
+<li>-n  由 1 开始对所有输出的行数编号。</li>
+<li>-b 和 -n相似 只不过对于空白行不限号</li>
+<li>-s 当遇到有连续两行以上的空白行，就代换为一行的空白行。</li>
+<li>-v 使用 ^ 和 M- 符号，除了 LFD 和 TAB 之外。</li>
+<li>-E 在每行结束处显示 $。</li>
+</ul>
+<p>示例:</p>
+<p>显示文件内容</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># cat file.txt</span></span><br></pre></td></tr></table></figure>
+<h1 id="mv"><a href="#mv" class="headerlink" title="mv"></a>mv</h1><p>mv 命令用来移动文件或者改名</p>
+<p>语法:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv [<span class="keyword">if</span>] src dest</span><br></pre></td></tr></table></figure>
+<p>参数说明:</p>
+<ul>
+<li>-i 如果指定目录已有同名文件，则先询问是否覆盖旧文件</li>
+<li>-f 在mv覆盖式不提示</li>
+</ul>
+<p>示例：</p>
+<p>文件改名：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># mv file.txt file1.txt</span></span><br></pre></td></tr></table></figure>
+<h1 id="touch"><a href="#touch" class="headerlink" title="touch"></a>touch</h1><p>touch 命令用于修改文件或目录的时间属性，如果文件不存在则创建一个。</p>
+<p>语法:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch [-acfm][-d&lt;日期时间&gt;][-r&lt;参考文件或目录&gt;] [-t&lt;日期时间&gt;][--<span class="built_in">help</span>][--version][文件或目录…]</span><br></pre></td></tr></table></figure>
+<p>参数说明：</p>
+<ul>
+<li>-a 改变读取时间。</li>
+<li>-m 改变修改时间。</li>
+<li>-c 如果目的文件不存，不会建立新的档案。</li>
+</ul>
+<p>示例:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># touch file.txt</span></span><br></pre></td></tr></table></figure>
+<h2 id="explainshell-com网站的使用"><a href="#explainshell-com网站的使用" class="headerlink" title="explainshell.com网站的使用"></a>explainshell.com网站的使用</h2><p><a href="explainshell.com">explainshell.com</a>是一个帮助你解释命令行的网站，它会分析命令的帮助文档，然后根据你想查询的命令参数来抽取对应的解释，然后简洁易懂地显示出来。</p>
+<p>使用方式:</p>
+<p>进入首页后文本框中输入相应的linux命令,并点击 <code>EXPLAIN</code> </p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://fan-qiang.github.io/2018/07/24/TypeScript安装与配置/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -355,7 +568,7 @@
                 
               
 
-              <time title="Created: 2018-07-24 09:29:15 / Modified: 10:40:38" itemprop="dateCreated datePublished" datetime="2018-07-24T09:29:15+08:00">2018-07-24</time>
+              <time title="Created: 2018-07-24 09:29:15 / Modified: 20:43:09" itemprop="dateCreated datePublished" datetime="2018-07-24T09:29:15+08:00">2018-07-24</time>
             
 
             
@@ -365,6 +578,24 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/前端/" itemprop="url" rel="index"><span itemprop="name">前端</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -491,12 +722,27 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
               
 
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">categories</span>
+                  
+                </div>
               
 
               
@@ -508,7 +754,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">tags</span>
                   
                 </div>
