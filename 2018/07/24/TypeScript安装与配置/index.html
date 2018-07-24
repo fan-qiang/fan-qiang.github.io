@@ -108,20 +108,25 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="一个博客">
-<meta property="og:url" content="http://fan-qiang.github.io/index.html">
+  <meta name="description" content="TypeScript简介TypeScript是一个javascript的超集，在javascript上增加了类型系统，为javascript增加静态类型与基于类的面向对象编程。 TypeScript 相关网站:  TypeScript官网   TypeScript-github TypeScript中文  安装准备 node.js vs code  安装typescript编译器，将typescr">
+<meta name="keywords" content="TypeScript">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TypeScript安装与配置">
+<meta property="og:url" content="http://fan-qiang.github.io/2018/07/24/TypeScript安装与配置/index.html">
 <meta property="og:site_name" content="一个博客">
+<meta property="og:description" content="TypeScript简介TypeScript是一个javascript的超集，在javascript上增加了类型系统，为javascript增加静态类型与基于类的面向对象编程。 TypeScript 相关网站:  TypeScript官网   TypeScript-github TypeScript中文  安装准备 node.js vs code  安装typescript编译器，将typescr">
 <meta property="og:locale" content="zh_Hans">
+<meta property="og:updated_time" content="2018-07-24T02:40:38.889Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一个博客">
+<meta name="twitter:title" content="TypeScript安装与配置">
+<meta name="twitter:description" content="TypeScript简介TypeScript是一个javascript的超集，在javascript上增加了类型系统，为javascript增加静态类型与基于类的面向对象编程。 TypeScript 相关网站:  TypeScript官网   TypeScript-github TypeScript中文  安装准备 node.js vs code  安装typescript编译器，将typescr">
 
 
 
 
 
 
-  <link rel="canonical" href="http://fan-qiang.github.io/"/>
+  <link rel="canonical" href="http://fan-qiang.github.io/2018/07/24/TypeScript安装与配置/"/>
 
 
 
@@ -131,7 +136,7 @@
   };
 </script>
 
-  <title>一个博客</title>
+  <title>TypeScript安装与配置 | 一个博客</title>
   
 
 
@@ -178,8 +183,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -216,7 +220,7 @@
         
         
           
-          <li class="menu-item menu-item-首页 menu-item-active">
+          <li class="menu-item menu-item-首页">
     <a href="/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
   </li>
@@ -292,9 +296,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -326,11 +330,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/24/TypeScript安装与配置/" itemprop="url">
-                  TypeScript安装与配置
-                </a>
+          <h1 class="post-title" itemprop="name headline">TypeScript安装与配置
               
             
           </h1>
@@ -393,9 +393,7 @@
       
 
       
-        
-          
-            <h2 id="TypeScript简介"><a href="#TypeScript简介" class="headerlink" title="TypeScript简介"></a>TypeScript简介</h2><p>TypeScript是一个javascript的超集，在javascript上增加了类型系统，为javascript增加静态类型与基于类的面向对象编程。</p>
+        <h2 id="TypeScript简介"><a href="#TypeScript简介" class="headerlink" title="TypeScript简介"></a>TypeScript简介</h2><p>TypeScript是一个javascript的超集，在javascript上增加了类型系统，为javascript增加静态类型与基于类的面向对象编程。</p>
 <p>TypeScript 相关网站:</p>
 <ul>
 <li><a href="http://www.typescriptlang.org" target="_blank" rel="noopener">TypeScript官网 </a> </li>
@@ -411,8 +409,6 @@
 <p>ts-node用于直接执行 .ts文件</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g ts-node</span><br></pre></td></tr></table></figure>
 
-          
-        
       
     </div>
 
@@ -430,14 +426,20 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/TypeScript/" rel="tag"># TypeScript</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -447,14 +449,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -475,8 +478,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -534,6 +546,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#TypeScript简介"><span class="nav-number">1.</span> <span class="nav-text">TypeScript简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装准备"><span class="nav-number">2.</span> <span class="nav-text">安装准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">3.</span> <span class="nav-text">安装</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -671,6 +699,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
