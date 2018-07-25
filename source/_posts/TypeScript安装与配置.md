@@ -2,6 +2,7 @@
 title: TypeScript安装与配置
 date: 2018-07-24 09:29:15
 tags: TypeScript
+categories: 前端
 ---
 
 ## TypeScript简介
