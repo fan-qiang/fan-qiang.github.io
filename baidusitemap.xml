@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>http://fan-qiang.github.io/2018/07/25/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-07-25T05:57:25.519Z</lastmod>
+    <data>
+        <display>
+        <title>git基本命令</title>
+        <pubTime>2018-07-25T04:55:08.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="scm" url="http://fan-qiang.github.io/categories/scm/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/24/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-07-25T05:51:44.625Z</lastmod>
+    <data>
+        <display>
+        <title>linux基本命令</title>
+        <pubTime>2018-07-24T12:24:25.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="操作系统" url="http://fan-qiang.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://fan-qiang.github.io/2018/07/24/TypeScript%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2018-07-25T02:32:00.139Z</lastmod>
     <data>
@@ -25,44 +65,4 @@
     
     
     
-    
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2018-07-25T01:30:32.246Z</lastmod>
-    <data>
-        <display>
-        <title>linux基本命令</title>
-        <pubTime>2018-07-24T12:24:25.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="操作系统" url="http://fan-qiang.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2018-07-25T01:30:26.662Z</lastmod>
-    <data>
-        <display>
-        <title>git基本命令</title>
-        <pubTime>2018-07-24T14:20:09.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-         
-           
-             
-              <breadCrumb title="scm" url="http://fan-qiang.github.io/categories/scm/"/>
-          
-        </display>
-    </data>
-    </url>
-
 </urlset>

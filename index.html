@@ -108,13 +108,16 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="一个博客">
+  <meta name="description" content="关于程序的一切">
+<meta property="og:type" content="website">
+<meta property="og:title" content="花田少年">
 <meta property="og:url" content="http://fan-qiang.github.io/index.html">
-<meta property="og:site_name" content="一个博客">
+<meta property="og:site_name" content="花田少年">
+<meta property="og:description" content="关于程序的一切">
 <meta property="og:locale" content="zh_Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="一个博客">
+<meta name="twitter:title" content="花田少年">
+<meta name="twitter:description" content="关于程序的一切">
 
 
 
@@ -131,7 +134,7 @@
   };
 </script>
 
-  <title>一个博客</title>
+  <title>花田少年</title>
   
 
 
@@ -190,7 +193,7 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">一个博客</span>
+        <span class="site-title">花田少年</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -309,16 +312,16 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fan-qiang.github.io/2018/07/24/git基本命令/">
+    <link itemprop="mainEntityOfPage" href="http://fan-qiang.github.io/2018/07/25/git基本命令/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fan Qiang">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="关于程序的一切">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="一个博客">
+      <meta itemprop="name" content="花田少年">
     </span>
 
     
@@ -328,7 +331,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/07/24/git基本命令/" itemprop="url">
+                <a class="post-title-link" href="/2018/07/25/git基本命令/" itemprop="url">
                   git基本命令
                 </a>
               
@@ -355,24 +358,12 @@
                 
               
 
-              <time title="Created: 2018-07-24 22:20:09" itemprop="dateCreated datePublished" datetime="2018-07-24T22:20:09+08:00">2018-07-24</time>
+              <time title="Created: 2018-07-25 12:55:08 / Modified: 13:57:25" itemprop="dateCreated datePublished" datetime="2018-07-25T12:55:08+08:00">2018-07-25</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-07-25 09:30:26" itemprop="dateModified" datetime="2018-07-25T09:30:26+08:00">2018-07-25</time>
               
             
           </span>
@@ -425,7 +416,16 @@
       
         
           
-            
+            <p>一些git 基本命令介绍：</p>
+<h2 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a>git init</h2><p>要对现有的某个项目开始用 Git 管理，只需到此项目所在的目录，执行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br></pre></td></tr></table></figure>
+<p>该命令创建一个空的Git仓库 - 基本上是创建一个具有<code>objects</code>，<code>refs/head</code>，<code>refs/tags</code>和模板文件的<code>.git</code>目录。 还创建了引用主分支的<code>HEAD</code>初始的一个<code>HEAD</code>文件。</p>
+<h2 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a>git add</h2><p>命令将文件内容添加到索引(将修改添加到暂存区)。也就是将要提交的文件的信息添加到索引库中。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git add . <span class="comment"># 所有文件加入索引库</span></span><br><span class="line">$ git add *.js <span class="comment">#将所有js文件加入索引库</span></span><br></pre></td></tr></table></figure>
+<h2 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a>git commit</h2><p>命令用于将更改记录(提交)到存储库。将索引的当前内容与描述更改的用户和日志消息一起存储在新的提交中。</p>
+<p>git commit 的常用参数</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -m <span class="string">'修改样式'</span> <span class="comment"># 提交注释信息</span></span><br><span class="line">$ git commit -v <span class="comment"># 提交时显示所有diff信息</span></span><br></pre></td></tr></table></figure>
+
           
         
       
@@ -482,12 +482,12 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fan Qiang">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="关于程序的一切">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="一个博客">
+      <meta itemprop="name" content="花田少年">
     </span>
 
     
@@ -541,7 +541,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-07-25 09:30:32" itemprop="dateModified" datetime="2018-07-25T09:30:32+08:00">2018-07-25</time>
+                <time title="Modified: 2018-07-25 13:51:44" itemprop="dateModified" datetime="2018-07-25T13:51:44+08:00">2018-07-25</time>
               
             
           </span>
@@ -608,9 +608,9 @@
 </ul>
 <p>示例:</p>
 <p>列出根目录的文件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ls /</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ls /</span><br></pre></td></tr></table></figure>
 <p>列出当前目录的所有文件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># ls -al</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ls -al</span><br></pre></td></tr></table></figure>
 <h2 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h2><p>cat 命令用于将文件打印到输出设备上</p>
 <p>语法：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat [-benstuv] [file ...]</span><br></pre></td></tr></table></figure>
@@ -624,7 +624,7 @@
 </ul>
 <p>示例:</p>
 <p>显示文件内容</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># cat file.txt</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cat file.txt</span><br></pre></td></tr></table></figure>
 <h2 id="mv"><a href="#mv" class="headerlink" title="mv"></a>mv</h2><p>mv 命令用来移动文件或者改名</p>
 <p>语法:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv [<span class="keyword">if</span>] src dest</span><br></pre></td></tr></table></figure>
@@ -635,7 +635,7 @@
 </ul>
 <p>示例：</p>
 <p>文件改名：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># mv file.txt file1.txt</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mv file.txt file1.txt</span><br></pre></td></tr></table></figure>
 <h2 id="touch"><a href="#touch" class="headerlink" title="touch"></a>touch</h2><p>touch 命令用于修改文件或目录的时间属性，如果文件不存在则创建一个。</p>
 <p>语法:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">touch [-acfm][-d&lt;日期时间&gt;][-r&lt;参考文件或目录&gt;] [-t&lt;日期时间&gt;][--<span class="built_in">help</span>][--version][文件或目录…]</span><br></pre></td></tr></table></figure>
@@ -646,7 +646,7 @@
 <li>-c 如果目的文件不存，不会建立新的档案。</li>
 </ul>
 <p>示例:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># touch file.txt</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ touch file.txt</span><br></pre></td></tr></table></figure>
 <h2 id="explainshell-com网站的使用"><a href="#explainshell-com网站的使用" class="headerlink" title="explainshell.com网站的使用"></a>explainshell.com网站的使用</h2><p><a href="explainshell.com">explainshell.com</a>是一个帮助你解释命令行的网站，它会分析命令的帮助文档，然后根据你想查询的命令参数来抽取对应的解释，然后简洁易懂地显示出来。</p>
 <p>使用方式:</p>
 <p>进入首页后文本框中输入相应的linux命令,并点击 <code>EXPLAIN</code> </p>
@@ -707,12 +707,12 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fan Qiang">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="关于程序的一切">
       <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="一个博客">
+      <meta itemprop="name" content="花田少年">
     </span>
 
     
@@ -909,7 +909,7 @@
                 alt="Fan Qiang" />
             
               <p class="site-author-name" itemprop="name">Fan Qiang</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">关于程序的一切</p>
           </div>
 
           
@@ -967,6 +967,20 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/fan-qiang" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:fanqiang1985@outlook.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
           
 
           

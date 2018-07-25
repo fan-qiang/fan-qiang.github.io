@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://fan-qiang.github.io/2018/07/25/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2018-07-25T05:57:25.519Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/24/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2018-07-25T05:51:44.625Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://fan-qiang.github.io/2018/07/24/TypeScript%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2018-07-25T02:32:00.139Z</lastmod>
@@ -26,20 +40,6 @@
     <loc>http://fan-qiang.github.io/tags/index.html</loc>
     
     <lastmod>2018-07-25T02:05:39.104Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2018-07-25T01:30:32.246Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2018-07-25T01:30:26.662Z</lastmod>
     
   </url>
   
