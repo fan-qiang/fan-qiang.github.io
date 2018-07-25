@@ -116,7 +116,7 @@
 <meta property="og:site_name" content="花田少年">
 <meta property="og:description" content="TypeScript简介TypeScript是一个javascript的超集，在javascript上增加了类型系统，为javascript增加静态类型与基于类的面向对象编程。 TypeScript 相关网站:  TypeScript官网   TypeScript-github TypeScript中文  安装准备 node.js vs code  安装typescript编译器，将typescr">
 <meta property="og:locale" content="zh_Hans">
-<meta property="og:updated_time" content="2018-07-25T02:32:00.139Z">
+<meta property="og:updated_time" content="2018-07-25T14:56:01.496Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TypeScript安装与配置">
 <meta name="twitter:description" content="TypeScript简介TypeScript是一个javascript的超集，在javascript上增加了类型系统，为javascript增加静态类型与基于类的面向对象编程。 TypeScript 相关网站:  TypeScript官网   TypeScript-github TypeScript中文  安装准备 node.js vs code  安装typescript编译器，将typescr">
@@ -372,7 +372,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-07-25 10:32:00" itemprop="dateModified" datetime="2018-07-25T10:32:00+08:00">2018-07-25</time>
+                <time title="Modified: 2018-07-25 22:56:01" itemprop="dateModified" datetime="2018-07-25T22:56:01+08:00">2018-07-25</time>
               
             
           </span>
@@ -436,8 +436,26 @@
 </ul>
 <h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>typescript编译器，将typescript从ts编译为js</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g typescript</span><br></pre></td></tr></table></figure>
-<p>ts-node用于直接执行 .ts文件</p>
+<p>此命令将安装tsserver 到如下目录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/<span class="built_in">local</span>/bin/tsserver</span><br></pre></td></tr></table></figure>
+<p>ts-node用于nodejs支持typescript</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g ts-node</span><br></pre></td></tr></table></figure>
+<p>此命令将安装ts-node到如下目录</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/<span class="built_in">local</span>/bin/ts-node</span><br></pre></td></tr></table></figure>
+<h2 id="第一个程序："><a href="#第一个程序：" class="headerlink" title="第一个程序："></a>第一个程序：</h2><ul>
+<li><p>首先创建一个文件夹用于存放项目内容</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir ~/typescript</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用vscode打开项目文件夹<code>~/typescript</code></p>
+</li>
+<li><p>使用vscode创建一个helloworld.ts文件并在文件中输入</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">" hello world! "</span>)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在<code>~/typescript/</code>目录下面创建<code>.vscode/launch.json</code>文件并设置typescript的配置,需要注意的是你需要将<code>~/typescript/</code>做为一个vscode的工作区并进行保存。</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"configurations"</span>: [</span><br><span class="line">        &#123;</span><br><span class="line">        <span class="attr">"name"</span>: <span class="string">"ts-node"</span>,</span><br><span class="line">        <span class="attr">"type"</span>: <span class="string">"node"</span>,</span><br><span class="line">        <span class="attr">"request"</span>: <span class="string">"launch"</span>,</span><br><span class="line">        "program": "/usr/local/bin/ts-node", //ts-node的安装目录</span><br><span class="line">        "args": ["$&#123;relativeFile&#125;"],</span><br><span class="line">        "cwd": "$&#123;workspaceRoot&#125;",</span><br><span class="line">        "protocol": "inspector"</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>在vscode中 按<code>F5</code>运行调试helloworld.ts程序,程序在控制台中输出<code>hello world</code></p>
+</li>
+</ul>
 
       
     </div>
@@ -553,7 +571,7 @@
                 
                   <a href="/archives">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -572,7 +590,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -591,7 +611,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">3</span>
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -610,7 +632,7 @@
                 </span>
               
                 <span class="links-of-author-item">
-                  <a href="mailto:fanqiang1985@outlook.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  <a href="mailto:fan-qiang@outlook.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
                   
                 </span>
               
@@ -641,7 +663,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#TypeScript简介"><span class="nav-number">1.</span> <span class="nav-text">TypeScript简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装准备"><span class="nav-number">2.</span> <span class="nav-text">安装准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">3.</span> <span class="nav-text">安装</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#TypeScript简介"><span class="nav-number">1.</span> <span class="nav-text">TypeScript简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装准备"><span class="nav-number">2.</span> <span class="nav-text">安装准备</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">3.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第一个程序："><span class="nav-number">4.</span> <span class="nav-text">第一个程序：</span></a></li></ol></div>
             
 
           </div>
