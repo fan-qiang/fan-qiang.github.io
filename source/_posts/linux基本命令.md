@@ -30,13 +30,13 @@ ls [-alrtAFR] [name...]
 列出根目录的文件
 
 ```bash
-# ls /
+$ ls /
 ```
 
 列出当前目录的所有文件
 
 ```bash
-# ls -al
+$ ls -al
 ```
 
 
@@ -64,7 +64,7 @@ cat [-benstuv] [file ...]
 显示文件内容
 
 ```bash
-# cat file.txt
+$ cat file.txt
 ```
 
 
@@ -89,7 +89,7 @@ mv [if] src dest
 文件改名：
 
 ```bash
-# mv file.txt file1.txt
+$ mv file.txt file1.txt
 ```
 
 
@@ -113,7 +113,7 @@ touch [-acfm][-d<日期时间>][-r<参考文件或目录>] [-t<日期时间>][--
 示例:
 
 ```bash
-# touch file.txt
+$ touch file.txt
 ```
 
 
