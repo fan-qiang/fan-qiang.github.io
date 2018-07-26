@@ -5,10 +5,10 @@
 # Site
 title: 花田少年
 subtitle:
-description: 关于程序的一切
-keywords:
+description: 关于程序的一切,全都是栈
+keywords: 前端 后端 企业信息集成 EIP 微服务
 author: Fan Qiang
-language: zh_Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
