@@ -39,3 +39,11 @@ $ git commit -m '修改样式' # 提交注释信息
 $ git commit -v # 提交时显示所有diff信息
 ```
 
+## 一些有用的git学习网站
+
+[learngitbranching](https://learngitbranching.js.org) 一个通过图形界面学习的网站
+
+[阮一峰git操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
+
+[git-scm 文档](https://www.git-scm.com/doc)
+
