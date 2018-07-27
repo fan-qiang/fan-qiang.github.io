@@ -116,6 +116,14 @@ touch [-acfm][-d<日期时间>][-r<参考文件或目录>] [-t<日期时间>][--
 $ touch file.txt
 ```
 
+## bash 中的; && ||
+
+```bash
+$ command1;command2 # 不管是否执行成功都会执行command2
+$ command1 && command2 # 只有command1 执行成功后才会执行command2
+$ command1 || command2 # command1 执行成功则不执行command2,否则执行command2
+```
+
 
 
 ## explainshell.com网站的使用
