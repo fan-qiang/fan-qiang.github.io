@@ -407,7 +407,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-07-28 13:09:08" itemprop="dateModified" datetime="2018-07-28T13:09:08+08:00">2018-07-28</time>
+                <time title="修改时间：2018-07-28 13:11:08" itemprop="dateModified" datetime="2018-07-28T13:11:08+08:00">2018-07-28</time>
               
             
           </span>
@@ -569,8 +569,7 @@
 <li><p>body body为可选部分</p>
 </li>
 </ol>
-<h3 id="HTTP请求报文-request"><a href="#HTTP请求报文-request" class="headerlink" title="HTTP请求报文 request"></a>HTTP请求报文 request</h3><p>####报文格式：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;method&gt; &lt;request-URL&gt; &lt;version&gt; </span><br><span class="line">&lt;headers&gt;</span><br><span class="line">                                     * 注意这个空行</span><br><span class="line">&lt;entity-body&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="HTTP请求报文-request"><a href="#HTTP请求报文-request" class="headerlink" title="HTTP请求报文 request"></a>HTTP请求报文 request</h3><h4 id="报文格式："><a href="#报文格式：" class="headerlink" title="报文格式："></a>报文格式：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;method&gt; &lt;request-URL&gt; &lt;version&gt; </span><br><span class="line">&lt;headers&gt;</span><br><span class="line">                                     * 注意这个空行</span><br><span class="line">&lt;entity-body&gt;</span><br></pre></td></tr></table></figure>
 <p>一个示例：</p>
 <p>通过curl命令访问baidu.com:</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -s -v -H <span class="string">'special:xxx'</span> www.baidu.com</span><br></pre></td></tr></table></figure>
@@ -595,8 +594,7 @@
 <li>报文体 为空 本次请求并没有携带报文体</li>
 </ol>
 <h3 id="HTTP响应报文-response"><a href="#HTTP响应报文-response" class="headerlink" title="HTTP响应报文 response"></a>HTTP响应报文 response</h3><p>HTTP响应报文与请求报文基本相同</p>
-<p>####报文格式：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;version&gt; &lt;status&gt; &lt;reason-phrase&gt;</span><br><span class="line">&lt;headers&gt;</span><br><span class="line">								 * 注意这个空行</span><br><span class="line">&lt;entity-body&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="报文格式：-1"><a href="#报文格式：-1" class="headerlink" title="报文格式："></a>报文格式：</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;version&gt; &lt;status&gt; &lt;reason-phrase&gt;</span><br><span class="line">&lt;headers&gt;</span><br><span class="line">								 * 注意这个空行</span><br><span class="line">&lt;entity-body&gt;</span><br></pre></td></tr></table></figure>
 <p>仍以上一节中的发送请求的举例</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -s -v -H <span class="string">'special:xxx'</span> www.baidu.com</span><br></pre></td></tr></table></figure>
 <p>返回报文的内容 </p>
@@ -651,8 +649,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -H <span class="string">"Content-Type:application/json"</span> www.baidu.com</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>设置方法</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl -X POST www.baidu.com</span><br><span class="line">curl -X PUT www.baidu.com</span><br></pre></td></tr></table></figure>
-</li>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl -X POST www.baidu.com</span><br><span class="line">curl -X PUT www.baidu.com</span><br></pre></td></tr></table></figure></li>
 </ol>
 
           
