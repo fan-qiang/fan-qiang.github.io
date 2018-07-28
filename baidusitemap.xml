@@ -3,6 +3,46 @@
 
 
     
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/27/http-%E7%AE%80%E4%BB%8B/</loc>
+    <lastmod>2018-07-28T04:52:45.237Z</lastmod>
+    <data>
+        <display>
+        <title>HTTP 简介</title>
+        <pubTime>2018-07-27T14:22:15.000Z</pubTime>
+        
+        <tag>HTTP</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="http://fan-qiang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/24/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-07-26T13:01:56.180Z</lastmod>
+    <data>
+        <display>
+        <title>linux基本命令</title>
+        <pubTime>2018-07-24T12:24:25.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="操作系统" url="http://fan-qiang.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
@@ -60,26 +100,6 @@
            
              
               <breadCrumb title="IDE" url="http://fan-qiang.github.io/categories/IDE/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2018-07-25T05:51:44.625Z</lastmod>
-    <data>
-        <display>
-        <title>linux基本命令</title>
-        <pubTime>2018-07-24T12:24:25.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="操作系统" url="http://fan-qiang.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
           
         </display>
     </data>
