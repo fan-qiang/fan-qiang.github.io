@@ -1,6 +1,7 @@
 ---
 title: git基本命令
 date: 2018-07-25 12:55:08
+p: git/git基本命令
 tags: git
 categories: scm
 ---

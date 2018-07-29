@@ -1,6 +1,7 @@
 ---
 title: linux基本命令
 date: 2018-07-24 20:24:25
+p: linux/linux基本命令
 tags: linux
 categories: 操作系统
 ---

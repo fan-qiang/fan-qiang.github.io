@@ -1,5 +1,6 @@
 ---
-title: visualstudio-code使用入门
+title: visual studio code 使用入门
+p: ide/visualstudio-code使用入门
 date: 2018-07-25 19:53:29
 tags: visual studio code
 categories: IDE
