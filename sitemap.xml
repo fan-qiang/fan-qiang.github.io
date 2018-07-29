@@ -2,23 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://fan-qiang.github.io/2018/07/28/TypeScript-in-5-minutes/</loc>
+    <loc>http://fan-qiang.github.io/2018/07/25/git/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
     
-    <lastmod>2018-07-29T01:37:24.552Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/27/http-%E7%AE%80%E4%BB%8B/</loc>
-    
-    <lastmod>2018-07-28T13:44:00.588Z</lastmod>
+    <lastmod>2018-07-29T02:32:44.469Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://fan-qiang.github.io/2018/07/27/http/http-%E7%AE%80%E4%BB%8B/</loc>
     
-    <lastmod>2018-07-26T13:01:56.180Z</lastmod>
+    <lastmod>2018-07-29T02:32:20.396Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/25/ide/visualstudio-code%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</loc>
+    
+    <lastmod>2018-07-29T02:31:29.760Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/24/linux/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2018-07-29T02:30:38.147Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/28/typescript/TypeScript-in-5-minutes/</loc>
+    
+    <lastmod>2018-07-29T02:29:05.311Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/24/typescript/TypeScript%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2018-07-29T02:27:50.432Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/29/typescript/Typescript-%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B/</loc>
+    
+    <lastmod>2018-07-29T02:19:32.589Z</lastmod>
     
   </url>
   
@@ -40,27 +68,6 @@
     <loc>http://fan-qiang.github.io/about/index.html</loc>
     
     <lastmod>2018-07-26T08:51:55.517Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/25/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
-    
-    <lastmod>2018-07-26T03:17:13.163Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/TypeScript%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</loc>
-    
-    <lastmod>2018-07-25T14:56:01.496Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/25/visualstudio-code%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</loc>
-    
-    <lastmod>2018-07-25T13:32:48.470Z</lastmod>
     
   </url>
   

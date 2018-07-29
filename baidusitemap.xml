@@ -4,71 +4,8 @@
 
     
   <url>
-    <loc>http://fan-qiang.github.io/2018/07/28/TypeScript-in-5-minutes/</loc>
-    <lastmod>2018-07-29T01:37:24.552Z</lastmod>
-    <data>
-        <display>
-        <title>TypeScript in 5 minutes</title>
-        <pubTime>2018-07-28T14:26:40.000Z</pubTime>
-        
-        <tag>TypeScript</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端" url="http://fan-qiang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/27/http-%E7%AE%80%E4%BB%8B/</loc>
-    <lastmod>2018-07-28T13:44:00.588Z</lastmod>
-    <data>
-        <display>
-        <title>HTTP 简介</title>
-        <pubTime>2018-07-27T14:22:15.000Z</pubTime>
-        
-        <tag>HTTP</tag>
-         
-         
-           
-             
-              <breadCrumb title="前端" url="http://fan-qiang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2018-07-26T13:01:56.180Z</lastmod>
-    <data>
-        <display>
-        <title>linux基本命令</title>
-        <pubTime>2018-07-24T12:24:25.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="操作系统" url="http://fan-qiang.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-    
-  <url>
-    <loc>http://fan-qiang.github.io/2018/07/25/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2018-07-26T03:17:13.163Z</lastmod>
+    <loc>http://fan-qiang.github.io/2018/07/25/git/git%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-07-29T02:32:44.469Z</lastmod>
     <data>
         <display>
         <title>git基本命令</title>
@@ -87,8 +24,88 @@
 
     
   <url>
-    <loc>http://fan-qiang.github.io/2018/07/24/TypeScript%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2018-07-25T14:56:01.496Z</lastmod>
+    <loc>http://fan-qiang.github.io/2018/07/27/http/http-%E7%AE%80%E4%BB%8B/</loc>
+    <lastmod>2018-07-29T02:32:20.396Z</lastmod>
+    <data>
+        <display>
+        <title>HTTP 简介</title>
+        <pubTime>2018-07-27T14:22:15.000Z</pubTime>
+        
+        <tag>HTTP</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="http://fan-qiang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/25/ide/visualstudio-code%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2018-07-29T02:31:29.760Z</lastmod>
+    <data>
+        <display>
+        <title>visual studio code 使用入门</title>
+        <pubTime>2018-07-25T11:53:29.000Z</pubTime>
+        
+        <tag>visual studio code</tag>
+         
+         
+           
+             
+              <breadCrumb title="IDE" url="http://fan-qiang.github.io/categories/IDE/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/24/linux/linux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2018-07-29T02:30:38.147Z</lastmod>
+    <data>
+        <display>
+        <title>linux基本命令</title>
+        <pubTime>2018-07-24T12:24:25.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="操作系统" url="http://fan-qiang.github.io/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/28/typescript/TypeScript-in-5-minutes/</loc>
+    <lastmod>2018-07-29T02:29:05.311Z</lastmod>
+    <data>
+        <display>
+        <title>TypeScript in 5 minutes</title>
+        <pubTime>2018-07-28T14:26:40.000Z</pubTime>
+        
+        <tag>TypeScript</tag>
+         
+         
+           
+             
+              <breadCrumb title="前端" url="http://fan-qiang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://fan-qiang.github.io/2018/07/24/typescript/TypeScript%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-07-29T02:27:50.432Z</lastmod>
     <data>
         <display>
         <title>TypeScript安装与配置</title>
@@ -107,22 +124,20 @@
 
     
   <url>
-    <loc>http://fan-qiang.github.io/2018/07/25/visualstudio-code%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8/</loc>
-    <lastmod>2018-07-25T13:32:48.470Z</lastmod>
+    <loc>http://fan-qiang.github.io/2018/07/29/typescript/Typescript-%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B/</loc>
+    <lastmod>2018-07-29T02:19:32.589Z</lastmod>
     <data>
         <display>
-        <title>visualstudio-code使用入门</title>
-        <pubTime>2018-07-25T11:53:29.000Z</pubTime>
+        <title>Typescript-基本类型</title>
+        <pubTime>2018-07-29T02:19:32.000Z</pubTime>
         
-        <tag>visual studio code</tag>
-         
          
            
-             
-              <breadCrumb title="IDE" url="http://fan-qiang.github.io/categories/IDE/"/>
-          
         </display>
     </data>
     </url>
 
+    
+    
+    
 </urlset>
