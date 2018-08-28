@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[html常用标签介绍]]></title>
+    <url>%2F2018%2F08%2F25%2Fhtml%2Fhtml%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE%E4%BB%8B%E7%BB%8D%2F</url>
+    <content type="text"><![CDATA[iframe标签HTML内联框架元素 &lt;iframe&gt; 表示嵌套的浏览上下文，有效地将另一个HTML页面嵌入到当前页面中。在HTML 4.01中，文档可能包含头部和正文，或头部和框架集，但不能包含正文和框架集。但是，&lt;iframe&gt; 可以在正常的文档主体中使用。每个浏览上下文都有自己的会话历史记录和活动文档。包含嵌入内容的浏览上下文称为父浏览上下文。顶级浏览上下文（没有父级）通常是浏览器窗口。 示例:1&lt;iframe src="https://www.baidu.com" name="xxx"&gt;&lt;/iframe&gt; a 标签元素 (或锚元素) 可以创建一个到其他网页、文件、同一页面内的位置、电子邮件地址或任何其他URL的超链接。 常见属性: download 此属性指示浏览器下载URL而不是导航到URL，因此将提示用户将其保存为本地文件。在设置download属性后 http response 将会被设置 Content-Type: application/octet-stream href 这是一个必需属性为锚定义一个超文本链接来源。这表示链接目标的URL或URL片段。URL片段是由一个hash符号（＃），它指定一个内部目标在当前文档中的位置（ID）开头的名字。URL不限于网页（HTTP）的文件。URL可能使用浏览器所支持的任何协议。例如，文件，FTP，大多数用户代理mailto工作。 href 指向文件协议 &lt;a href=&quot;file.txt&quot;/&gt; 当前页面打开时使用的是什么协议则对应的file.txt使用什么协议打开，如直接使用浏览器打开的当前页面则使用的是文件协议，则通过文件系统查找file.txt。 &lt;a href=&quot;#aa&quot;/&gt; 链接至本页的额锚点上 &lt;a href=&quot;?name=xxx&quot;/&gt; 链接带查询参数 &lt;a href=&quot;javascript:alert(&#39;111&#39;)&quot;&gt; 实现一个javascript伪协议 实现一个标签点击后不跳转 &lt;a href=&quot;#&quot;/&gt; 链接至最上面的元素，会产生页面滚动 &lt;a href=&quot;javascript:;&quot;/&gt; 点击后不会产生页面滚动 示例: 1&lt;a href="http://www.baidu.com/"&gt;External Link&lt;/a&gt; form 标签 HTML &lt;form&gt; 元素 表示了文档中的一个区域，这个区域包含有交互控制元件，用来向web服务器提交信息。 常见属性: action 一个处理这个form信息的程序所在的URL。这个值可以被 &lt;button&gt; 或者 &lt;input&gt;元素的 formaction 属性重载（覆盖）。 method 浏览器使用这种 HTTP方式来提交 form. 可能的值有: post: 指的是 HTTP POST 方法 ; 表单数据会包含在表单体内然后发送给服务器. get: 指的是 HTTP GET 方法; 表单数据会附加在 action 属性的URI中，并以 ‘?’ 作为分隔符, 然后这样得到的 URI 再发送给服务器. 当这样做（数据暴露在URI里面）没什么副作用，或者表单仅包含ASCII字符时，再使用这种方法吧。Content-Type: application/x-www-form-urlencoded 示例: 12345&lt;form action="users" method="post"&gt; &lt;input type="text" name="username"&gt; &lt;input type="password" name="password"&gt; &lt;input type="submit" value="提交"&gt;&lt;/form&gt; input/button &lt;input&gt; 元素用于为基于Web的表单创建交互式控件，以便接受来自用户的数据。 不指定input 的name属性则无法将数据发送至后台 &lt;label for=&quot;ipt&quot;&gt;&lt;input type=&quot;text&quot; id=&quot;ipt&quot;&gt; 常用的属性: type的类型: button 无缺省行为按钮。 checkbox 复选框。 radio 单选按钮。 示例: 12&lt;label for="textInput"&gt;Note the red caret:&lt;/label&gt;&lt;input id="textInput" class="custom" size="32"/&gt; 1234input.custom &#123; caret-color: red; font: 16px "Helvetica", "Arial", "sans-serif"&#125; table 元素表示表格数据 — 即通过二维数据表表示的信息。 示例:123456789101112131415161718192021&lt;table&gt; &lt;colgroup span="4" class="columns"&gt;&lt;/colgroup&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Header content 1&lt;/th&gt; &lt;th&gt;Header content 2&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;body content 1&lt;/td&gt; &lt;td&gt;body content 1&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;tfoot&gt; &lt;tr&gt; &lt;td&gt;Footer content 1&lt;/td&gt; &lt;td&gt;Footer content 2&lt;/td&gt; &lt;/tr&gt; &lt;/tfoot&gt;&lt;/table&gt;]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Typescript-基本类型]]></title>
     <url>%2F2018%2F07%2F29%2Ftypescript%2FTypescript-%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%2F</url>
     <content type="text"></content>
